@@ -143,7 +143,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 70%;
   padding: 20px;
   background-color: var(--cg-light-grey);
   overflow-y: auto;
@@ -185,43 +185,43 @@ main {
   padding: 30px;
   background-color: var(--cg-white);
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Smooth shadow for depth */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   margin: 40px 0;
   transition: transform 0.3s ease-in-out;
 }
 
 .about:hover {
-  transform: scale(1.02); /* Slight scale effect on hover */
+  transform: scale(1.02);
 }
 
 .about-image img {
-  max-width: 350px; /* Slightly increased image size */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow for image */
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   transition: filter 0.3s ease-in-out;
 }
 
 .about-image img:hover {
-  filter: brightness(90%); /* Dims the image slightly on hover */
+  filter: brightness(90%);
 }
 
 .about-text {
   flex: 1;
   margin-left: 30px;
-  color: var(--cg-black); /* Consistent text color */
+  color: var(--cg-black);
 }
 
 .about-text h2 {
   font-family: 'Playfair Display', serif;
-  font-size: 28px; /* Larger font for headings */
+  font-size: 28px;
   margin-bottom: 15px;
-  color: var(--cg-purple); /* Accent color for heading */
+  color: var(--cg-purple);
 }
 
 .about-text p {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px; /* Slightly larger for readability */
-  line-height: 1.8; /* Increased line height for readability */
+  font-size: 18px;
+  line-height: 1.8;
   margin-bottom: 20px;
   color: var(--cg-black);
 }
@@ -406,4 +406,10 @@ form {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
