@@ -1,3 +1,3 @@
-# <Nickaan Jahadi>'s Personal Website
+Nickaan Jahadi's Personal Website
 This is a personal website built using the Hack4Impact Starter Pack!
 [Visit it Here!](https://njahadi.github.io)
